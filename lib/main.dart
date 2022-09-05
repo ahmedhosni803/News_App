@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:newss_app/HomeScreen/News_Details/NewsDetails.dart';
 
 import 'HomeScreen/HomeScreen.dart';
-import 'HomeScreen/News(Details)/NewsDetails.dart';
 
 void main() {
   runApp(const MyApp());
