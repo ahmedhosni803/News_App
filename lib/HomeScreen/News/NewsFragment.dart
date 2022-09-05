@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:newss_app/API/Api_manager.dart';
 import 'package:newss_app/API/Models%20from%20Api/SoursesResponse.dart';
-import 'package:newss_app/HomeScreen/News/News(Tabs).dart';
+import 'package:newss_app/HomeScreen/News/News_Tabs.dart';
 
 import '../Categories/Categories.dart';
 

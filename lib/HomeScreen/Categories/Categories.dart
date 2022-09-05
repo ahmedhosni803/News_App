@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'category widget.dart';
+import 'widget_Category.dart';
 
 class Categories extends StatelessWidget {
   var categories = Category.getallCategories();

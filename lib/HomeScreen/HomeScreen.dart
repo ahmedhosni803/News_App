@@ -7,8 +7,8 @@ import 'package:newss_app/HomeScreen/settings/settings.dart';
 import '../API/Api_manager.dart';
 import '../API/Models from Api/NewsResonse.dart';
 import '../my functions/Ui_Utils.dart';
-import 'HomeSideMenu.dart';
 import 'News/News_Widget.dart';
+import 'SideMenu.dart';
 
 class HomeScreen extends StatefulWidget {
   static const String routeName = 'home';

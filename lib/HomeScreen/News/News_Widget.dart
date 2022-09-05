@@ -1,9 +1,9 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
+import 'package:newss_app/Format_Date/FormatDate.dart';
 import 'package:newss_app/HomeScreen/News(Details)/NewsDetails.dart';
 
 import '../../API/Models from Api/NewsResonse.dart';
-import '../../Format(date)/format(date).dart';
 
 class NewsWidget extends StatelessWidget {
   //photo + News's source + Title
