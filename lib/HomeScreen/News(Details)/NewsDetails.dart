@@ -22,7 +22,7 @@ class NewsDetailsScreen extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              //-----------------------------------photo------------------------------------------------------------
+              //---photo----
               ClipRRect(
                 borderRadius: BorderRadius.circular(20.0),
                 child: CachedNetworkImage(
@@ -37,31 +37,31 @@ class NewsDetailsScreen extends StatelessWidget {
                   errorWidget: (context, url, error) => Icon(Icons.error),
                 ),
               ),
-              //-----------------------------------author--------------------------------------------------------------------
+              //---author-------
               Text(news.author ?? "",
                   style:
                       const TextStyle(color: Color(0xFF79828B), fontSize: 12)),
-              //-----------------------------------Title---------------------------------------------------------------
+              //------Title-----------
               Text(news.title ?? "",
                   style:
                       const TextStyle(color: Color(0xFF79828B), fontSize: 22)),
-              //-----------------------------------date--------------------------------------------------------------------
+              //------date--------------
               Text(
                 formatDate(news.publishedAt ?? ''),
                 textAlign: TextAlign.end,
                 style: const TextStyle(color: Color(0xFF79828B), fontSize: 12),
               ),
-              //-----------------------------------News content --------------------------------------------------------------------
+              //-----------News content ------------------
               SizedBox(height: screenHeight * 0.05),
               Text(
                 news.content ?? "no news here",
                 style: TextStyle(fontSize: 30),
               ),
-              //----------------------------------button at end of screen-------------------------------------------------------------------
+              //------button at end of screen-----------------------
               SizedBox(height: screenHeight * 0.14),
               TextButton(
                   onPressed: () {
-                    openUrl(news.url ?? "loooooooooooooooooooooooooool");
+                    openUrl(news.url ?? "");
                   },
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.end,
