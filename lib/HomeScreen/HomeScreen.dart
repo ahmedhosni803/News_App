@@ -29,7 +29,6 @@ class _HomeScreenState extends State<HomeScreen> {
               fit: BoxFit.fill),
           color: Colors.white),
       child: Scaffold(
-        extendBodyBehindAppBar: true,
         backgroundColor: Colors.transparent,
         appBar: AppBar(
           shape: const RoundedRectangleBorder(
@@ -54,7 +53,7 @@ class _HomeScreenState extends State<HomeScreen> {
         body: Column(
           children: [
             SizedBox(
-              height: MediaQuery.of(context).size.height * 0.03,
+              height: MediaQuery.of(context).size.height * 0.01,
             ),
             Expanded(
                 child: Padding(
